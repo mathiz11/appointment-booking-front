@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap");
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 4rem 1rem 1.5rem;
+}
+
+.form-container {
+  max-width: 400px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* PADDING */
+.pt-s {
+  padding-top: 0.5rem;
+}
+
+.pt-m {
+  padding-top: 1rem;
+}
+
+.pb-s {
+  padding-bottom: 0.5rem;
+}
+
+.pb-m {
+  padding-bottom: 1rem;
+}
+
+.py-s {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.py-m {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+/* MARGIN */
+.mt-s {
+  margin-top: 0.5rem;
+}
+
+.mt-m {
+  margin-top: 1rem;
+}
+
+.mb-s {
+  margin-bottom: 0.5rem;
+}
+
+.mb-m {
+  margin-bottom: 1rem;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
