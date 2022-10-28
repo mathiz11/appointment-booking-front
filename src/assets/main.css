@@ -16,7 +16,7 @@ h1 {
 }
 
 main {
-  padding: 4rem 1rem 1.5rem;
+  padding: 4.5rem 1rem 1.5rem;
 }
 
 .form-container {
@@ -71,6 +71,43 @@ main {
   margin-bottom: 1rem;
 }
 
+.ml-s {
+  margin-left: 0.5rem;
+}
+
+.ml-m {
+  margin-left: 1rem;
+}
+
+.mr-s {
+  margin-right: 0.5rem;
+}
+
+.mr-m {
+  margin-right: 1rem;
+}
+
 .mx-auto {
   margin: 0 auto;
+}
+
+.mx-s {
+  margin: 0 0.5rem;
+}
+
+.mx-m {
+  margin: 0 1rem;
+}
+
+.my-s {
+  margin: 0.5rem 0;
+}
+
+.my-m {
+  margin: 1rem 0;
+}
+
+/* FONT */
+.font-m {
+  font-size: 16px;
 }

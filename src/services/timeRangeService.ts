@@ -63,10 +63,22 @@ const create = (timeRange: TimeRange): Promise<ResponseAPI<void>> => {
     });
 };
 
+const remove = (id: number): Promise<ResponseAPI<void>> => {
+  return axios
+    .delete(
+      `${import.meta.env.VITE_API_ENDPOINT}/time-ranges/${id}`,
+      getHeaders()
+    )
+    .catch((error) => {
+      throw new Error(error.response.data.message);
+    });
+};
+
 const timeRangeService = {
   getAll,
   getAllByDate,
   create,
+  remove,
 };
 
 export default timeRangeService;

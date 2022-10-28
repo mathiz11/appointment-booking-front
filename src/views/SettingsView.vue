@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>Emploi du temps</h1>
+        <h1>Horaires de travail</h1>
         <custom-calendar :timeRanges="timeRanges" v-model:timestamp="timestamp" @updateTimeRanges="updateTimeRanges" />
     </main>
 </template>

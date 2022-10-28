@@ -1,8 +1,10 @@
 <template>
   <n-config-provider :locale="frFR" :date-locale="dateFrFR">
     <n-message-provider>
-      <TopBar v-if="route.name !== 'login'" />
-      <RouterView />
+      <n-dialog-provider>
+        <TopBar v-if="route.name !== 'login'" />
+        <RouterView />
+      </n-dialog-provider>
     </n-message-provider>
   </n-config-provider>
 </template>

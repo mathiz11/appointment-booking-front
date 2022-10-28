@@ -13,6 +13,9 @@ export const getHeaders = () => ({
 });
 
 export const ERROR_MESSAGE_OPTIONS: MessageOptions = {
-  closable: true,
-  duration: 600,
+  duration: 5000,
+};
+
+export const SUCCESS_MESSAGE_OPTIONS: MessageOptions = {
+  duration: 5000,
 };
